@@ -1,0 +1,7 @@
+type happyWords {
+  message: String!
+}
+
+extend type Query {
+  happyWords: happyWords
+}
