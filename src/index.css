@@ -18,6 +18,9 @@ input {
 .background-gray {
   background-color: rgb(246,246,239);
 }
+.unlink {
+  text-decoration: none;
+}
 
 .f11 {
   font-size: 11px;

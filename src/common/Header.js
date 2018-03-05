@@ -8,7 +8,8 @@ class Header extends Component {
     return (
       <div className='flex pa1 justify-between nowrap olive'>
         <div className='flex flex-fixed black'>
-          <div className='fw7 mr1'>诗歌天下</div>
+          <Link to='/' className='fw7 mr1 unlink'>诗歌天下</Link>
+          <Link to='/create' className='ml1 no-underline black'>new</Link>
         </div>
         <div className='flex flex-fixed'>
           {userId ?
