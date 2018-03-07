@@ -81,8 +81,10 @@ type User @model {
 
 ## 2. 创建用户,用户登录
 1. another functions
+```
 graphcool add-template graphcool/templates/auth/email-password
 graphcool deploy 
+```
 
 2. mutation gql example:
 ``` js
